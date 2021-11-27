@@ -14,6 +14,30 @@
 		D8848BE2275270AB00D26D6E /* MishkaCmsiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848BE1275270AB00D26D6E /* MishkaCmsiOSTests.swift */; };
 		D8848BEC275270AB00D26D6E /* MishkaCmsiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848BEB275270AB00D26D6E /* MishkaCmsiOSUITests.swift */; };
 		D8848BEE275270AB00D26D6E /* MishkaCmsiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848BED275270AB00D26D6E /* MishkaCmsiOSUITestsLaunchTests.swift */; };
+		D8848C022752909900D26D6E /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C012752909900D26D6E /* HttpClient.swift */; };
+		D8848C032752909900D26D6E /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C012752909900D26D6E /* HttpClient.swift */; };
+		D8848C052752910700D26D6E /* BlogQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C042752910700D26D6E /* BlogQuery.swift */; };
+		D8848C062752910700D26D6E /* BlogQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C042752910700D26D6E /* BlogQuery.swift */; };
+		D8848C082752911A00D26D6E /* PostSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C072752911A00D26D6E /* PostSchema.swift */; };
+		D8848C092752911A00D26D6E /* PostSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C072752911A00D26D6E /* PostSchema.swift */; };
+		D8848C0B2752912B00D26D6E /* CategorySchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C0A2752912B00D26D6E /* CategorySchema.swift */; };
+		D8848C0C2752912B00D26D6E /* CategorySchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C0A2752912B00D26D6E /* CategorySchema.swift */; };
+		D8848C0E2752971E00D26D6E /* PostItemComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C0D2752971E00D26D6E /* PostItemComponent.swift */; };
+		D8848C0F2752971E00D26D6E /* PostItemComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C0D2752971E00D26D6E /* PostItemComponent.swift */; };
+		D8848C112752988F00D26D6E /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C102752988F00D26D6E /* Pagination.swift */; };
+		D8848C122752988F00D26D6E /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C102752988F00D26D6E /* Pagination.swift */; };
+		D8848C142752990E00D26D6E /* BlogsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C132752990E00D26D6E /* BlogsTemplate.swift */; };
+		D8848C152752990E00D26D6E /* BlogsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C132752990E00D26D6E /* BlogsTemplate.swift */; };
+		D8848C172752992A00D26D6E /* CategoryTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C162752992A00D26D6E /* CategoryTemplate.swift */; };
+		D8848C182752992A00D26D6E /* CategoryTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C162752992A00D26D6E /* CategoryTemplate.swift */; };
+		D8848C1A2752993C00D26D6E /* PostTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C192752993C00D26D6E /* PostTemplate.swift */; };
+		D8848C1B2752993C00D26D6E /* PostTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C192752993C00D26D6E /* PostTemplate.swift */; };
+		D8848C1D275299A400D26D6E /* BlogsControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C1C275299A400D26D6E /* BlogsControllers.swift */; };
+		D8848C1E275299A400D26D6E /* BlogsControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C1C275299A400D26D6E /* BlogsControllers.swift */; };
+		D8848C20275299B500D26D6E /* CategoryControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C1F275299B500D26D6E /* CategoryControllers.swift */; };
+		D8848C21275299B500D26D6E /* CategoryControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C1F275299B500D26D6E /* CategoryControllers.swift */; };
+		D8848C23275299C300D26D6E /* PostControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C22275299C300D26D6E /* PostControllers.swift */; };
+		D8848C24275299C300D26D6E /* PostControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C22275299C300D26D6E /* PostControllers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +68,18 @@
 		D8848BE7275270AB00D26D6E /* MishkaCmsiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MishkaCmsiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8848BEB275270AB00D26D6E /* MishkaCmsiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MishkaCmsiOSUITests.swift; sourceTree = "<group>"; };
 		D8848BED275270AB00D26D6E /* MishkaCmsiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MishkaCmsiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8848C012752909900D26D6E /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		D8848C042752910700D26D6E /* BlogQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogQuery.swift; sourceTree = "<group>"; };
+		D8848C072752911A00D26D6E /* PostSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostSchema.swift; sourceTree = "<group>"; };
+		D8848C0A2752912B00D26D6E /* CategorySchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySchema.swift; sourceTree = "<group>"; };
+		D8848C0D2752971E00D26D6E /* PostItemComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItemComponent.swift; sourceTree = "<group>"; };
+		D8848C102752988F00D26D6E /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		D8848C132752990E00D26D6E /* BlogsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogsTemplate.swift; sourceTree = "<group>"; };
+		D8848C162752992A00D26D6E /* CategoryTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTemplate.swift; sourceTree = "<group>"; };
+		D8848C192752993C00D26D6E /* PostTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTemplate.swift; sourceTree = "<group>"; };
+		D8848C1C275299A400D26D6E /* BlogsControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogsControllers.swift; sourceTree = "<group>"; };
+		D8848C1F275299B500D26D6E /* CategoryControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryControllers.swift; sourceTree = "<group>"; };
+		D8848C22275299C300D26D6E /* PostControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostControllers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +130,10 @@
 		D8848BCF275270AA00D26D6E /* MishkaCmsiOS */ = {
 			isa = PBXGroup;
 			children = (
+				D8848BFA27527CB900D26D6E /* Apps */,
+				D8848BFC275283A500D26D6E /* Controllers */,
+				D8848BFD275283C800D26D6E /* Components */,
+				D8848BFF275284EB00D26D6E /* Templates */,
 				D8848BD0275270AA00D26D6E /* MishkaCmsiOSApp.swift */,
 				D8848BD2275270AA00D26D6E /* ContentView.swift */,
 				D8848BD4275270AB00D26D6E /* Assets.xcassets */,
@@ -125,6 +165,78 @@
 				D8848BED275270AB00D26D6E /* MishkaCmsiOSUITestsLaunchTests.swift */,
 			);
 			path = MishkaCmsiOSUITests;
+			sourceTree = "<group>";
+		};
+		D8848BFA27527CB900D26D6E /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				D8848BFE275284A400D26D6E /* Helper */,
+				D8848BFB27527CCD00D26D6E /* MishkaBlog */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		D8848BFB27527CCD00D26D6E /* MishkaBlog */ = {
+			isa = PBXGroup;
+			children = (
+				D8848C042752910700D26D6E /* BlogQuery.swift */,
+				D8848C072752911A00D26D6E /* PostSchema.swift */,
+				D8848C0A2752912B00D26D6E /* CategorySchema.swift */,
+			);
+			path = MishkaBlog;
+			sourceTree = "<group>";
+		};
+		D8848BFC275283A500D26D6E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8848C25275299F800D26D6E /* MishkaBlog */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D8848BFD275283C800D26D6E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D8848C0D2752971E00D26D6E /* PostItemComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D8848BFE275284A400D26D6E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D8848C012752909900D26D6E /* HttpClient.swift */,
+				D8848C102752988F00D26D6E /* Pagination.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D8848BFF275284EB00D26D6E /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				D8848C002752850B00D26D6E /* MishkaBlog */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		D8848C002752850B00D26D6E /* MishkaBlog */ = {
+			isa = PBXGroup;
+			children = (
+				D8848C132752990E00D26D6E /* BlogsTemplate.swift */,
+				D8848C162752992A00D26D6E /* CategoryTemplate.swift */,
+				D8848C192752993C00D26D6E /* PostTemplate.swift */,
+			);
+			path = MishkaBlog;
+			sourceTree = "<group>";
+		};
+		D8848C25275299F800D26D6E /* MishkaBlog */ = {
+			isa = PBXGroup;
+			children = (
+				D8848C1C275299A400D26D6E /* BlogsControllers.swift */,
+				D8848C1F275299B500D26D6E /* CategoryControllers.swift */,
+				D8848C22275299C300D26D6E /* PostControllers.swift */,
+			);
+			path = MishkaBlog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +369,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8848C142752990E00D26D6E /* BlogsTemplate.swift in Sources */,
+				D8848C052752910700D26D6E /* BlogQuery.swift in Sources */,
+				D8848C1A2752993C00D26D6E /* PostTemplate.swift in Sources */,
+				D8848C1D275299A400D26D6E /* BlogsControllers.swift in Sources */,
 				D8848BD3275270AA00D26D6E /* ContentView.swift in Sources */,
+				D8848C172752992A00D26D6E /* CategoryTemplate.swift in Sources */,
+				D8848C022752909900D26D6E /* HttpClient.swift in Sources */,
 				D8848BD1275270AA00D26D6E /* MishkaCmsiOSApp.swift in Sources */,
+				D8848C0B2752912B00D26D6E /* CategorySchema.swift in Sources */,
+				D8848C112752988F00D26D6E /* Pagination.swift in Sources */,
+				D8848C0E2752971E00D26D6E /* PostItemComponent.swift in Sources */,
+				D8848C23275299C300D26D6E /* PostControllers.swift in Sources */,
+				D8848C20275299B500D26D6E /* CategoryControllers.swift in Sources */,
+				D8848C082752911A00D26D6E /* PostSchema.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +390,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8848C032752909900D26D6E /* HttpClient.swift in Sources */,
+				D8848C062752910700D26D6E /* BlogQuery.swift in Sources */,
+				D8848C0C2752912B00D26D6E /* CategorySchema.swift in Sources */,
+				D8848C122752988F00D26D6E /* Pagination.swift in Sources */,
+				D8848C092752911A00D26D6E /* PostSchema.swift in Sources */,
 				D8848BE2275270AB00D26D6E /* MishkaCmsiOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,8 +403,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8848C24275299C300D26D6E /* PostControllers.swift in Sources */,
+				D8848C1E275299A400D26D6E /* BlogsControllers.swift in Sources */,
+				D8848C21275299B500D26D6E /* CategoryControllers.swift in Sources */,
 				D8848BEC275270AB00D26D6E /* MishkaCmsiOSUITests.swift in Sources */,
+				D8848C152752990E00D26D6E /* BlogsTemplate.swift in Sources */,
+				D8848C0F2752971E00D26D6E /* PostItemComponent.swift in Sources */,
+				D8848C182752992A00D26D6E /* CategoryTemplate.swift in Sources */,
 				D8848BEE275270AB00D26D6E /* MishkaCmsiOSUITestsLaunchTests.swift in Sources */,
+				D8848C1B2752993C00D26D6E /* PostTemplate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
