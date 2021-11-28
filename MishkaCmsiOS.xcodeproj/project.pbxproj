@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D8848BD1275270AA00D26D6E /* MishkaCmsiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848BD0275270AA00D26D6E /* MishkaCmsiOSApp.swift */; };
-		D8848BD3275270AA00D26D6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848BD2275270AA00D26D6E /* ContentView.swift */; };
+		D8848BD3275270AA00D26D6E /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848BD2275270AA00D26D6E /* MainController.swift */; };
 		D8848BD5275270AB00D26D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8848BD4275270AB00D26D6E /* Assets.xcassets */; };
 		D8848BD8275270AB00D26D6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8848BD7275270AB00D26D6E /* Preview Assets.xcassets */; };
 		D8848BE2275270AB00D26D6E /* MishkaCmsiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848BE1275270AB00D26D6E /* MishkaCmsiOSTests.swift */; };
@@ -38,6 +38,13 @@
 		D8848C21275299B500D26D6E /* CategoryControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C1F275299B500D26D6E /* CategoryControllers.swift */; };
 		D8848C23275299C300D26D6E /* PostControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C22275299C300D26D6E /* PostControllers.swift */; };
 		D8848C24275299C300D26D6E /* PostControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C22275299C300D26D6E /* PostControllers.swift */; };
+		D8848C282752D0A600D26D6E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C272752D0A600D26D6E /* Router.swift */; };
+		D8848C312752D9B900D26D6E /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848BD2275270AA00D26D6E /* MainController.swift */; };
+		D8848C322752D9FB00D26D6E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C272752D0A600D26D6E /* Router.swift */; };
+		D8848C342752EC8B00D26D6E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C332752EC8B00D26D6E /* HomeController.swift */; };
+		D8848C352752EC8B00D26D6E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C332752EC8B00D26D6E /* HomeController.swift */; };
+		D8848C372752EDC500D26D6E /* RouterSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C362752EDC500D26D6E /* RouterSchema.swift */; };
+		D8848C382752EDC500D26D6E /* RouterSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C362752EDC500D26D6E /* RouterSchema.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +67,7 @@
 /* Begin PBXFileReference section */
 		D8848BCD275270AA00D26D6E /* MishkaCmsiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MishkaCmsiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8848BD0275270AA00D26D6E /* MishkaCmsiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MishkaCmsiOSApp.swift; sourceTree = "<group>"; };
-		D8848BD2275270AA00D26D6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8848BD2275270AA00D26D6E /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		D8848BD4275270AB00D26D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8848BD7275270AB00D26D6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D8848BDD275270AB00D26D6E /* MishkaCmsiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MishkaCmsiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +87,9 @@
 		D8848C1C275299A400D26D6E /* BlogsControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogsControllers.swift; sourceTree = "<group>"; };
 		D8848C1F275299B500D26D6E /* CategoryControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryControllers.swift; sourceTree = "<group>"; };
 		D8848C22275299C300D26D6E /* PostControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostControllers.swift; sourceTree = "<group>"; };
+		D8848C272752D0A600D26D6E /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		D8848C332752EC8B00D26D6E /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		D8848C362752EDC500D26D6E /* RouterSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterSchema.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,12 +140,13 @@
 		D8848BCF275270AA00D26D6E /* MishkaCmsiOS */ = {
 			isa = PBXGroup;
 			children = (
+				D8848BD0275270AA00D26D6E /* MishkaCmsiOSApp.swift */,
+				D8848C272752D0A600D26D6E /* Router.swift */,
 				D8848BFA27527CB900D26D6E /* Apps */,
 				D8848BFC275283A500D26D6E /* Controllers */,
 				D8848BFD275283C800D26D6E /* Components */,
+				D8848C302752D59500D26D6E /* Navigations */,
 				D8848BFF275284EB00D26D6E /* Templates */,
-				D8848BD0275270AA00D26D6E /* MishkaCmsiOSApp.swift */,
-				D8848BD2275270AA00D26D6E /* ContentView.swift */,
 				D8848BD4275270AB00D26D6E /* Assets.xcassets */,
 				D8848BD6275270AB00D26D6E /* Preview Content */,
 			);
@@ -189,6 +200,8 @@
 		D8848BFC275283A500D26D6E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D8848BD2275270AA00D26D6E /* MainController.swift */,
+				D8848C332752EC8B00D26D6E /* HomeController.swift */,
 				D8848C25275299F800D26D6E /* MishkaBlog */,
 			);
 			path = Controllers;
@@ -207,6 +220,7 @@
 			children = (
 				D8848C012752909900D26D6E /* HttpClient.swift */,
 				D8848C102752988F00D26D6E /* Pagination.swift */,
+				D8848C362752EDC500D26D6E /* RouterSchema.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -214,6 +228,7 @@
 		D8848BFF275284EB00D26D6E /* Templates */ = {
 			isa = PBXGroup;
 			children = (
+				D8848C262752A06C00D26D6E /* Main */,
 				D8848C002752850B00D26D6E /* MishkaBlog */,
 			);
 			path = Templates;
@@ -237,6 +252,20 @@
 				D8848C22275299C300D26D6E /* PostControllers.swift */,
 			);
 			path = MishkaBlog;
+			sourceTree = "<group>";
+		};
+		D8848C262752A06C00D26D6E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D8848C302752D59500D26D6E /* Navigations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,13 +402,16 @@
 				D8848C052752910700D26D6E /* BlogQuery.swift in Sources */,
 				D8848C1A2752993C00D26D6E /* PostTemplate.swift in Sources */,
 				D8848C1D275299A400D26D6E /* BlogsControllers.swift in Sources */,
-				D8848BD3275270AA00D26D6E /* ContentView.swift in Sources */,
+				D8848BD3275270AA00D26D6E /* MainController.swift in Sources */,
 				D8848C172752992A00D26D6E /* CategoryTemplate.swift in Sources */,
+				D8848C372752EDC500D26D6E /* RouterSchema.swift in Sources */,
 				D8848C022752909900D26D6E /* HttpClient.swift in Sources */,
 				D8848BD1275270AA00D26D6E /* MishkaCmsiOSApp.swift in Sources */,
 				D8848C0B2752912B00D26D6E /* CategorySchema.swift in Sources */,
+				D8848C282752D0A600D26D6E /* Router.swift in Sources */,
 				D8848C112752988F00D26D6E /* Pagination.swift in Sources */,
 				D8848C0E2752971E00D26D6E /* PostItemComponent.swift in Sources */,
+				D8848C342752EC8B00D26D6E /* HomeController.swift in Sources */,
 				D8848C23275299C300D26D6E /* PostControllers.swift in Sources */,
 				D8848C20275299B500D26D6E /* CategoryControllers.swift in Sources */,
 				D8848C082752911A00D26D6E /* PostSchema.swift in Sources */,
@@ -390,6 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8848C382752EDC500D26D6E /* RouterSchema.swift in Sources */,
 				D8848C032752909900D26D6E /* HttpClient.swift in Sources */,
 				D8848C062752910700D26D6E /* BlogQuery.swift in Sources */,
 				D8848C0C2752912B00D26D6E /* CategorySchema.swift in Sources */,
@@ -404,14 +437,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8848C24275299C300D26D6E /* PostControllers.swift in Sources */,
+				D8848C352752EC8B00D26D6E /* HomeController.swift in Sources */,
 				D8848C1E275299A400D26D6E /* BlogsControllers.swift in Sources */,
 				D8848C21275299B500D26D6E /* CategoryControllers.swift in Sources */,
+				D8848C312752D9B900D26D6E /* MainController.swift in Sources */,
 				D8848BEC275270AB00D26D6E /* MishkaCmsiOSUITests.swift in Sources */,
 				D8848C152752990E00D26D6E /* BlogsTemplate.swift in Sources */,
 				D8848C0F2752971E00D26D6E /* PostItemComponent.swift in Sources */,
 				D8848C182752992A00D26D6E /* CategoryTemplate.swift in Sources */,
 				D8848BEE275270AB00D26D6E /* MishkaCmsiOSUITestsLaunchTests.swift in Sources */,
 				D8848C1B2752993C00D26D6E /* PostTemplate.swift in Sources */,
+				D8848C322752D9FB00D26D6E /* Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

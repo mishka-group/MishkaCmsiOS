@@ -11,7 +11,7 @@ import SwiftUI
 struct MishkaCmsiOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainController()
         }
     }
 }
