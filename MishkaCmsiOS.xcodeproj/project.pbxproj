@@ -39,12 +39,11 @@
 		D8848C23275299C300D26D6E /* PostControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C22275299C300D26D6E /* PostControllers.swift */; };
 		D8848C24275299C300D26D6E /* PostControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C22275299C300D26D6E /* PostControllers.swift */; };
 		D8848C282752D0A600D26D6E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C272752D0A600D26D6E /* Router.swift */; };
-		D8848C312752D9B900D26D6E /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848BD2275270AA00D26D6E /* MainController.swift */; };
-		D8848C322752D9FB00D26D6E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C272752D0A600D26D6E /* Router.swift */; };
 		D8848C342752EC8B00D26D6E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C332752EC8B00D26D6E /* HomeController.swift */; };
 		D8848C352752EC8B00D26D6E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C332752EC8B00D26D6E /* HomeController.swift */; };
 		D8848C372752EDC500D26D6E /* RouterSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C362752EDC500D26D6E /* RouterSchema.swift */; };
 		D8848C382752EDC500D26D6E /* RouterSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C362752EDC500D26D6E /* RouterSchema.swift */; };
+		D8DB93FC27737AE5000A3CEF /* CustomTabBarStyleOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB93FB27737AE5000A3CEF /* CustomTabBarStyleOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +89,7 @@
 		D8848C272752D0A600D26D6E /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		D8848C332752EC8B00D26D6E /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		D8848C362752EDC500D26D6E /* RouterSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterSchema.swift; sourceTree = "<group>"; };
+		D8DB93FB27737AE5000A3CEF /* CustomTabBarStyleOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarStyleOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				D8848C0D2752971E00D26D6E /* PostItemComponent.swift */,
+				D8DB93FB27737AE5000A3CEF /* CustomTabBarStyleOne.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -403,6 +404,7 @@
 				D8848C1A2752993C00D26D6E /* PostTemplate.swift in Sources */,
 				D8848C1D275299A400D26D6E /* BlogsControllers.swift in Sources */,
 				D8848BD3275270AA00D26D6E /* MainController.swift in Sources */,
+				D8DB93FC27737AE5000A3CEF /* CustomTabBarStyleOne.swift in Sources */,
 				D8848C172752992A00D26D6E /* CategoryTemplate.swift in Sources */,
 				D8848C372752EDC500D26D6E /* RouterSchema.swift in Sources */,
 				D8848C022752909900D26D6E /* HttpClient.swift in Sources */,
@@ -440,14 +442,12 @@
 				D8848C352752EC8B00D26D6E /* HomeController.swift in Sources */,
 				D8848C1E275299A400D26D6E /* BlogsControllers.swift in Sources */,
 				D8848C21275299B500D26D6E /* CategoryControllers.swift in Sources */,
-				D8848C312752D9B900D26D6E /* MainController.swift in Sources */,
 				D8848BEC275270AB00D26D6E /* MishkaCmsiOSUITests.swift in Sources */,
 				D8848C152752990E00D26D6E /* BlogsTemplate.swift in Sources */,
 				D8848C0F2752971E00D26D6E /* PostItemComponent.swift in Sources */,
 				D8848C182752992A00D26D6E /* CategoryTemplate.swift in Sources */,
 				D8848BEE275270AB00D26D6E /* MishkaCmsiOSUITestsLaunchTests.swift in Sources */,
 				D8848C1B2752993C00D26D6E /* PostTemplate.swift in Sources */,
-				D8848C322752D9FB00D26D6E /* Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
