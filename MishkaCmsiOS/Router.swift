@@ -14,9 +14,9 @@ struct Router: View {
         VStack {
             // Using SideBar Or TabBar in different resolution like iPhone or iPad
             if horizontalSizeClass == .compact {
-                TabBarView()
+                CustomTabBarStyleOne()
             } else {
-                
+                // TODO: I think it would be good if it is same as iPhone or iPad, but with resize and some changes
                 SideBarView()
             }
         }
@@ -52,23 +52,6 @@ struct SideBarView: View {
     }
 }
 
-// This is a TabBar which is loaded when you have a iPad or iPhon and you want to use Portrait mode
-struct TabBarView: View {
-    var body: some View {
-        TabView {
-            ForEach(routers) {item in
-                NavigationView {
-                    getNavigation(nav: item.nav)
-                }
-                .tabItem {
-                    Image(systemName: item.icon)
-                    Text(item.title)
-                }
-            }
-        }
-    }
-}
-
 // This extension make a router in our View which is Repeated all the pages
 extension View {
     @ViewBuilder func getNavigation(nav: SelectNavigation) -> some View {
@@ -77,7 +60,6 @@ extension View {
             HomeController()
         case .blogs:
             BlogsControllers()
-            
         case .login:
             PostControllers()
         }
