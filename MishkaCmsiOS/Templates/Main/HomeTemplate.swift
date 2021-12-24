@@ -8,22 +8,24 @@
 import SwiftUI
 struct HomeTemplate: View {
     var body: some View {
-        ScrollView {
-            VStack {
-                Text("Your Daily")
-                    .font(.system(size: 25, weight: .bold))
-                    .foregroundColor(Color.secondary)
-                    .frame(maxWidth: .infinity, alignment: .leading)
+        VStack {
+            ScrollView {
+                VStack {
+                    Text("Your Daily")
+                        .font(.system(size: 25, weight: .bold))
+                        .foregroundColor(Color.secondary)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    
+                    Text("Recommendation")
+                        .font(.system(size: 25, weight: .bold))
+                        .foregroundColor(Color.primary)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                }
+                .padding(.horizontal, 22)
+                .padding(.top, 30)
                 
-                Text("Recommendation")
-                    .font(.system(size: 25, weight: .bold))
-                    .foregroundColor(Color.primary)
-                    .frame(maxWidth: .infinity, alignment: .leading)
+                ScrollViewListSlideStyleOne()
             }
-            .padding(.horizontal, 22)
-            .padding(.top, 30)
-            
-            ScrollViewListSlideStyleOne()
         }
     }
 }

@@ -40,7 +40,6 @@
 		D8848C24275299C300D26D6E /* PostControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C22275299C300D26D6E /* PostControllers.swift */; };
 		D8848C282752D0A600D26D6E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C272752D0A600D26D6E /* Router.swift */; };
 		D8848C342752EC8B00D26D6E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C332752EC8B00D26D6E /* HomeController.swift */; };
-		D8848C352752EC8B00D26D6E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C332752EC8B00D26D6E /* HomeController.swift */; };
 		D8848C372752EDC500D26D6E /* RouterSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C362752EDC500D26D6E /* RouterSchema.swift */; };
 		D8848C382752EDC500D26D6E /* RouterSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8848C362752EDC500D26D6E /* RouterSchema.swift */; };
 		D8BB058E2775DE4000FF9E6E /* HomeTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BB058D2775DE4000FF9E6E /* HomeTemplate.swift */; };
@@ -447,7 +446,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8848C24275299C300D26D6E /* PostControllers.swift in Sources */,
-				D8848C352752EC8B00D26D6E /* HomeController.swift in Sources */,
 				D8848C1E275299A400D26D6E /* BlogsControllers.swift in Sources */,
 				D8848C21275299B500D26D6E /* CategoryControllers.swift in Sources */,
 				D8848BEC275270AB00D26D6E /* MishkaCmsiOSUITests.swift in Sources */,

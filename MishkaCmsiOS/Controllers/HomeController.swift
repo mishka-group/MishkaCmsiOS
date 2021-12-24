@@ -8,9 +8,7 @@
 import SwiftUI
 struct HomeController: View {
     var body: some View {
-        HStack {
-            HomeTemplate()
-        }
+        HomeTemplate()
     }
 }
 
