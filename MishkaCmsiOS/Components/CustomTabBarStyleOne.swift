@@ -6,7 +6,6 @@
 //
 // This is a TabBar which is loaded when you have a iPad or iPhon and you want to use Portrait mode
 import SwiftUI
-
 struct CustomTabBarStyleOne: View {
     let tabbarTextIconColor: UIColor = UIColor(red: 0.35, green: 0.35, blue: 0.35, alpha: 1.00)
     @State var selectNavigation: SelectNavigation = .home

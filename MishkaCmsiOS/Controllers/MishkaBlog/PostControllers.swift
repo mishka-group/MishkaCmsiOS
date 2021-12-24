@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct PostControllers: View {
     var body: some View {
         Text("Hello, Post!")

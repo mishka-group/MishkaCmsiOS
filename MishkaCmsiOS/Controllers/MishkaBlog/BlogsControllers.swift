@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct BlogsControllers: View {
     var body: some View {
         ZStack {
