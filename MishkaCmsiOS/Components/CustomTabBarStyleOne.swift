@@ -32,12 +32,13 @@ struct CustomTabBarStyleOne: View {
             }
             .padding(.top, 10)
             .frame(height: 80, alignment: .top)
-            .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+            .background(.ultraThickMaterial, in: RoundedRectangle(cornerRadius: 10, style: .continuous))
             .frame(maxHeight: .infinity, alignment: .bottom)
             .ignoresSafeArea()
-            .shadow(color: Color.black.opacity(0.2), radius: 20, x: 0, y: 10)
+            .shadow(color: Color.black.opacity(0.4), radius: 20, x: 0, y: 10)
         }
         .padding(EdgeInsets(top: 0, leading: 20, bottom: 1, trailing: 20))
+        
 
     }
 }
