@@ -6,10 +6,9 @@
 //
 
 import SwiftUI
-
 struct HomeController: View {
     var body: some View {
-        Text("Hello, Home!")
+        HomeTemplate()
     }
 }
 
