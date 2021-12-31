@@ -143,15 +143,14 @@
 		D8848BCF275270AA00D26D6E /* MishkaCmsiOS */ = {
 			isa = PBXGroup;
 			children = (
-				D8848BD0275270AA00D26D6E /* MishkaCmsiOSApp.swift */,
-				D8848C272752D0A600D26D6E /* Router.swift */,
 				D8848BFA27527CB900D26D6E /* Apps */,
 				D8848BFC275283A500D26D6E /* Controllers */,
 				D8848BFD275283C800D26D6E /* Components */,
-				D8848C302752D59500D26D6E /* Navigations */,
 				D8848BFF275284EB00D26D6E /* Templates */,
-				D8848BD4275270AB00D26D6E /* Assets.xcassets */,
 				D8848BD6275270AB00D26D6E /* Preview Content */,
+				D8848C272752D0A600D26D6E /* Router.swift */,
+				D8848BD0275270AA00D26D6E /* MishkaCmsiOSApp.swift */,
+				D8848BD4275270AB00D26D6E /* Assets.xcassets */,
 			);
 			path = MishkaCmsiOS;
 			sourceTree = "<group>";
@@ -265,13 +264,6 @@
 				D8BB058D2775DE4000FF9E6E /* HomeTemplate.swift */,
 			);
 			path = Main;
-			sourceTree = "<group>";
-		};
-		D8848C302752D59500D26D6E /* Navigations */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Navigations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
