@@ -67,7 +67,7 @@ struct HomeTemplate: View {
                                 Spacer()
                                 VStack {
                                     Text("this is a subject everytime wee need")
-                                        .font(.system(size: 20, weight: .bold))
+                                        .font(.system(size: 18, weight: .light))
                                         .multilineTextAlignment(.leading)
                                         .foregroundColor(Color.primary)
                                         .frame(maxWidth: .infinity, alignment: .topLeading)
@@ -75,9 +75,29 @@ struct HomeTemplate: View {
                                     Spacer()
                                     HStack {
                                         // TODO: should be replaced with {time, likes, comments}
-                                        Text("time")
+                                        HStack {
+                                            Image("shahryar-cat-profile")
+                                                .resizable()
+                                                .scaledToFill()
+                                                .frame(width: 35, height: 35)
+                                                .cornerRadius(50)
+                                            Text("Shahryar")
+                                                .bold()
+                                                .font(.system(size: 15, weight: .bold))
+                                                .foregroundColor(Color.secondary)
+                                                .frame(maxWidth: .infinity, alignment: .leading)
+                                                .multilineTextAlignment(.leading)
+                                        }
+                                        
                                         Spacer()
-                                        Text("time")
+                                        HStack {
+                                            HStack {
+                                                Image(systemName: "suit.heart")
+                                                Text("100k")
+                                                    .font(.system(size: 14, weight: .light))
+                                            }
+                                            Image(systemName: "bookmark")
+                                        }
                                     }
                                     .frame(maxWidth: .infinity, alignment: .bottomLeading)
                                 }
