@@ -107,6 +107,7 @@ struct HomeTemplate: View {
                             .background(.white, in: RoundedRectangle(cornerRadius: 5, style: .continuous))
                             
                         }
+                        .padding(.horizontal, 5)
                         .cornerRadius(3)
                         .shadow(color: Color.black.opacity(0.2), radius: 4, x: 1, y: 2)
                     }
