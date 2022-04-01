@@ -29,16 +29,20 @@ struct BlogsTemplate: View {
                         spacing: 40
                     ) {
 //                        ForEach(1..<4) { item in
-                            VStack {
-                                Image(systemName: "suit.heart.fill")
-                                    .font(.system(size: 30, weight: .ultraLight))
-                                    .foregroundColor(.red)
-                                Spacer()
-                                Text("Heart")
-                                    .font(.system(size: 18))
-                                    .foregroundColor(Color.primary)
+                            Button(action: {
+                                let _ = print("hi!")
+                            }) {
+                                VStack {
+                                    Image(systemName: "suit.heart.fill")
+                                        .font(.system(size: 30, weight: .ultraLight))
+                                        .foregroundColor(.red)
+                                    Spacer()
+                                    Text("Heart")
+                                        .font(.system(size: 18))
+                                        .foregroundColor(Color.primary)
+                                }
                             }
-                            
+                        
                             VStack {
                                 Image(systemName: "moon.fill")
                                     .font(.system(size: 30, weight: .ultraLight))
@@ -78,6 +82,88 @@ struct BlogsTemplate: View {
             .padding()
             .padding(.top, 50)
             .ignoresSafeArea()
+            
+            
+            VStack(spacing: 17) {
+                LazyVGrid(
+                    columns: [GridItem(.adaptive(minimum: .infinity), spacing: 16)],
+                    spacing: 20
+                ) {
+                    // TODO: Should be seperate and put it as a item in a new swiftui file, but it is not a componnet
+                    ForEach(1..<10) { item in
+                        VStack {
+                            
+                            Text("This is a subject everytime wee need")
+                                .font(.system(size: 18, weight: .bold))
+                                .multilineTextAlignment(.leading)
+                                .foregroundColor(Color.primary)
+                                .frame(maxWidth: .infinity, alignment: .topLeading)
+                            
+                            Spacer()
+                            
+                            Image("1test")
+                                .resizable()
+                                .scaledToFill()
+                                .frame(maxWidth: .infinity, minHeight: 200, maxHeight: 200, alignment: .topLeading)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 5).stroke(lineWidth: 0.5)
+                                )
+                                .clipped()
+                                .cornerRadius(5)
+                                .shadow(radius: 4)
+                            
+                            Spacer()
+                            Spacer()
+                            VStack {
+                                Text("This is a subject everytime wee need this is a subject everytime wee need this is a subject everytime wee need this is a subject everytime wee need")
+                                
+                                Spacer()
+                                HStack {
+                                    // TODO: should be replaced with {time, likes, comments}
+                                    HStack {
+                                        Image("shahryar-cat-profile")
+                                            .resizable()
+                                            .scaledToFill()
+                                            .frame(width: 35, height: 35)
+                                            .cornerRadius(50)
+                                        Text("Shahryar")
+                                            .bold()
+                                            .font(.system(size: 15, weight: .bold))
+                                            .foregroundColor(Color.secondary)
+                                            .frame(maxWidth: .infinity, alignment: .leading)
+                                            .multilineTextAlignment(.leading)
+                                    }
+                                    
+                                    Spacer()
+                                    Spacer()
+                                    HStack {
+                                        HStack {
+                                            Image(systemName: "suit.heart")
+                                            Text("100k")
+                                                .font(.system(size: 14, weight: .light))
+                                        }
+                                        Image(systemName: "bookmark")
+                                    }
+                                }
+                                .padding(.top, 30)
+                                .frame(maxWidth: .infinity, alignment: .bottomLeading)
+                            }
+                        }
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.all, 10)
+                        .background(.white, in: RoundedRectangle(cornerRadius: 5, style: .continuous))
+                        
+                    }
+                    .padding(.horizontal, 5)
+                    .cornerRadius(3)
+                    .shadow(color: Color.black.opacity(0.2), radius: 4, x: 1, y: 2)
+                }
+                
+                .frame(maxWidth: .infinity)
+            }
+            .padding()
+            
+            
         }
     }
 }
