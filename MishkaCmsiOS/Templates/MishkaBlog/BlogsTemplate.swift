@@ -106,10 +106,10 @@ struct BlogsTemplate: View {
                                 .scaledToFill()
                                 .frame(maxWidth: .infinity, minHeight: 200, maxHeight: 200, alignment: .topLeading)
                                 .overlay(
-                                    RoundedRectangle(cornerRadius: 5).stroke(lineWidth: 0.5)
+                                    RoundedRectangle(cornerRadius: 9).stroke(lineWidth: 0.1)
                                 )
                                 .clipped()
-                                .cornerRadius(5)
+                                .cornerRadius(11)
                                 .shadow(radius: 4)
                             
                             Spacer()
