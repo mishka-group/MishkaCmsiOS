@@ -17,11 +17,21 @@ struct BlogsTemplate: View {
     var body: some View {
         ScrollView {
             VStack {
-                Text("Categories")
-                    .font(.system(size: 25, weight: .bold))
-                    .foregroundColor(Color.primary)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.bottom, 10)
+                
+                HStack {
+                    Text("Categories")
+                        .font(.system(size: 25, weight: .bold))
+                        .foregroundColor(Color.primary)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.bottom, 10)
+                    
+                    
+                    Button("More") {
+                        print("hi")
+                    }
+                    .foregroundColor(Color.blue)
+                }
+                
                 
                 HStack {
                     LazyVGrid(
@@ -94,10 +104,11 @@ struct BlogsTemplate: View {
                         VStack {
                             
                             Text("This is a subject everytime wee need")
-                                .font(.system(size: 18, weight: .bold))
+                                .font(.system(size: 20, weight: .bold))
                                 .multilineTextAlignment(.leading)
                                 .foregroundColor(Color.primary)
                                 .frame(maxWidth: .infinity, alignment: .topLeading)
+                                .padding(.bottom, 15)
                             
                             Spacer()
                             
@@ -171,5 +182,6 @@ struct BlogsTemplate: View {
 struct BlogsTemplate_Previews: PreviewProvider {
     static var previews: some View {
         BlogsTemplate()
+.previewInterfaceOrientation(.portrait)
     }
 }
